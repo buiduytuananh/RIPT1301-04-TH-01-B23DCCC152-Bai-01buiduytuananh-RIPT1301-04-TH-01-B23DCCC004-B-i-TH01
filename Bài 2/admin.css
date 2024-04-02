@@ -1,0 +1,39 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    line-height: 1.6;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid #000000; 
+    text-align: left;
+    padding: 15px;
+    color: #333;
+}
+
+form {
+    margin-top: 30px;
+}
+form input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: #ffffff;
+}
+
+tr:nth-child(1) td {
+    background-color: #FFA07A; 
+}
+tr:nth-child(2) td {
+    background-color: #FFD700; 
+}
+tr:nth-child(3) td {
+    background-color: #66CDAA; 
+}
+tr:nth-child(4) td {
+    background-color: #9370DB; 
+}
